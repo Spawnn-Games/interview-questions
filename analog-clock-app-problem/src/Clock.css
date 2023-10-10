@@ -1,0 +1,33 @@
+/* src/Clock.css */
+.clock {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+  }
+  
+  .hand {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    top: 50%;
+    transform-origin: 100%;
+    transform: translateY(-50%);
+    background-color: #000;
+  }
+  
+  .hour-hand {
+    background-color: #000;
+    transform-origin: 100%;
+  }
+  
+  .minute-hand {
+    background-color: #000;
+  }
+  
+  .second-hand {
+    background-color: #f00;
+  }
+  
